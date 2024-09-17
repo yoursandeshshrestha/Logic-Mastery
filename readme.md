@@ -1,4 +1,4 @@
-# TypeScript Logic Building - 100 Questions
+# TypeScript and Python Logic Building - 100 Questions
 
 ### Basic Questions (1-25)
 
