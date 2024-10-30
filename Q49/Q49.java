@@ -1,6 +1,6 @@
 // Find the smallest missing positive integer in an array.
 
-public class Solution {
+public class Q49 {
     public static int firstMissingPositive(int[] nums) {
         int n = nums.length;
         
