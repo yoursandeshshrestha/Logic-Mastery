@@ -3,7 +3,8 @@
 #include <cstring>
 using namespace std;
 
-int main() {
+int main() 
+{
     char mystring[100], ch;
     int count = 0;
 
@@ -14,8 +15,10 @@ int main() {
     cin >> ch;
 
   
-    for (int i = 0; i < strlen(mystring); i++) {
-        if (mystring[i] == ch) {
+    for (int i = 0; i < strlen(mystring); i++) 
+    {
+        if (mystring[i] == ch) 
+        {
             count++;
         }
     }
