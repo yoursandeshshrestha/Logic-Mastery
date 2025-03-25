@@ -3,7 +3,8 @@
 #include <cstring>
 using namespace std;
 
-int main() {
+int main() 
+{
     char mystring[100], ch;
     int count = 0;
 

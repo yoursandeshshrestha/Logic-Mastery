@@ -1,6 +1,5 @@
 /*Tower of Hanoi*/
 #include <stdio.h>
-
 void main() 
 {
     int n; 

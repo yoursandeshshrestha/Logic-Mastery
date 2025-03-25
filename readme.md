@@ -1,4 +1,11 @@
-# TypeScript Logic Building - 100 Questions
+# Solving Questions in Multiple Languages
+
+This repository showcases solutions to a variety of coding questions across multiple programming languages. Whether you're a beginner looking to learn new languages or an experienced developer seeking different approaches to problem-solving, this collection is for you!
+
+## Features
+Diverse Languages: Solutions are provided in several popular programming languages, including Python, Java, C++, JavaScript, and more.
+Variety of Questions: From algorithmic challenges to data structures and basic programming tasks, explore a wide range of questions.
+Clear Documentation: Each solution includes explanations and comments to help you understand the logic behind the code.
 
 ### Basic Questions (1-25)
 
@@ -111,3 +118,5 @@
 98. Perform randomized quicksort.
 99. Solve the painter’s partition problem.
 100.  Solve the longest common subsequence problem.
+
+
