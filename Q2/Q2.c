@@ -1,31 +1,27 @@
-/*Find the largest of three numbers.*/
+/* Find the largest of three numbers */
 #include<stdio.h>
 void main()
 {
-    int  a, b, c, largest;
+  int a , b, c , largest;
 
-    printf("Enter First Number : ");
-    scanf("%d" , &a);
+  printf("Enter the first number\n");
+  scanf("%d" , &a);
 
-    printf("Enter Second Number : ");
-    scanf("%d" , &b);
+  printf("Enter the second number\n");
+  scanf("%d", &b);
 
-    printf("Enter Third Number : ");
-    scanf("%d" , &c);
+  printf("Enter the third number: ");
+  scanf("%d", &c);
 
-    if(a>b && a>c)
-    {
-        printf("Largest Number is : %d\n" , a);
-    }
+  if (a >= b && a >= c) {
+    largest = a;
+  } 
+  else if (b >= a && b >= c) {
+    largest = b;
+  } 
+  else {
+    largest = c;
+  }
 
-    else if(b>a && b>c)
-    {
-        printf("Largest Number is : %d\n", b);
-    }
-
-    else
-    {
-        printf("Largest Number is : %d\n", c);
-    }
-
+  printf("The largest number is: %d\n", largest);
 }

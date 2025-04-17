@@ -1,7 +1,7 @@
 /*Check if a number is a power of two.*/
 #include <stdio.h>
 
-void main() 
+int main() 
 {
     int number;
 
@@ -17,4 +17,6 @@ void main()
     {
         printf("%d is not a power of two.\n", number);
     }
+
+    return 0;
 }

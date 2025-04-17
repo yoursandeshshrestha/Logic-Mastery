@@ -1,5 +1,5 @@
 /*Add number inside an array*/
-include <stdio.h>
+#include<stdio.h>
 void main()
 {
     int n, i, sum = 0;
