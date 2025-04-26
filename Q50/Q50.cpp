@@ -1,51 +1,41 @@
-/*Binary to decimal*/
+/*Merge two sorted arrays into one sorted array*/
 #include <iostream>
 using namespace std;
-
-void primeFactors(int n);
-
 int main() 
 {
-    int num;
-    cout << "Enter a positive integer: ";
-    cin >> num;
+    int arr1[] = {1, 3, 5};
+    int arr2[] = {2, 4, 6};
+    int merged[6];
+    int i = 0, j = 0, k = 0;
 
-    if (num <= 0) 
-    {
-        cout << "Please enter a positive integer" << endl;
-    } 
-    
-    else 
-    {
-        cout << "Prime factors of " << num << " are: ";
-        primeFactors(num);  
-        cout << endl;       
-    }
-
-    return 0;
-}
-
-void primeFactors(int n) 
-{
-    
-    while (n % 2 == 0) 
-    {
-        cout << 2 << " ";
-        n = n / 2;
-    }
-
-    
-    for (int i = 3; i * i <= n; i = i + 2) 
-    {
-
-        while (n % i == 0)
+    while (i < 3 && j < 3)
+     {
+        if (arr1[i] < arr2[j]) 
         {
-            cout << i << " ";
-            n = n / i;
+            merged[k++] = arr1[i++];
+        } 
+        else 
+        {
+            merged[k++] = arr2[j++];
         }
     }
 
+   
+    while (i < 3) 
+    {
+        merged[k++] = arr1[i++];
+    }
 
-    if (n > 2)
-        cout << n << " ";
+    
+    while (j < 3) 
+    {
+        merged[k++] = arr2[j++];
+    }
+
+    
+    for (i = 0; i < 6; i++)
+    {
+        cout << merged[i] << " ";
+
+    }
 }

@@ -1,4 +1,4 @@
-/*program to count the character in the string*/
+/*Count the character in the string*/
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -12,13 +12,11 @@ int main()
     cin >> mystring;  
 
     cout << "Enter the character to count: ";
-    cin >> ch;
+    cin >> ch;  
 
-  
-    for (int i = 0; i < strlen(mystring); i++) 
-    {
-        if (mystring[i] == ch) 
-        {
+
+    for (int i = 0; i < strlen(mystring); i++) {
+        if (mystring[i] == ch) {
             count++;
         }
     }
